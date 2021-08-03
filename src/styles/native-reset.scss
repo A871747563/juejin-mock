@@ -1,0 +1,139 @@
+.n-menu-item-content {
+  font-size: 1rem;
+  padding: 0 !important;
+  margin: 0 0 !important;
+  .n-menu-item-content__icon {
+    padding: 0 !important;
+    margin: 0 !important;
+    transform: scale(0.7);
+  }
+  .n-menu-item-content-header {
+    color: #86909c;
+    font-weight: 1000;
+  }
+}
+
+// icon颜色全局配置
+.n-icon {
+  color: #86909c;
+}
+.n-submenu {
+  .n-menu-item-content {
+    position: relative;
+    min-width: 44px;
+    &::before {
+      position: absolute;
+      right: 0px;
+      display: block;
+      content: '';
+      width: 0;
+      height: 0;
+      line-height: 0;
+      font-size: 0;
+      border-color: #72777b transparent transparent;
+      border-style: solid;
+      border-width: 6px 6px 0;
+      transform-origin: center center;
+      transition: transform 0.25s linear;
+    }
+  }
+}
+
+// 日期组件配置
+.vc-container.vc-blue.vc-is-expanded {
+  border: none;
+}
+
+// 头部下拉框
+.demo.n-dropdown {
+  width: 150px;
+  .n-dropdown-option {
+    height: 29px;
+    .n-dropdown-option-body {
+      color: #4e5969;
+    }
+  }
+  .n-dropdown-option:first-child {
+    padding-top: 12px;
+  }
+  .n-dropdown-option:nth-child(2) {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+  .n-dropdown-option:nth-child(3) {
+    padding-top: 12px;
+  }
+  .n-dropdown-option:nth-child(8) {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+  .n-dropdown-option:nth-child(9) {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+  .n-dropdown-option:nth-child(11) {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+}
+
+// 模态框配置相关
+.newsModal {
+  width: 500px;
+  height: 340px;
+  padding: 0 20px;
+  .n-card-header {
+    padding: 0;
+    height: 48px;
+    .n-card-header__main {
+      font-size: 1.6rem;
+      font-weight: 1000;
+      color: #1d2129;
+      line-height: 48px;
+    }
+  }
+  .n-card__content {
+    padding: 0;
+    .body {
+      height: 326px;
+      .desc1 {
+        height: 64px;
+        margin-bottom: 16px;
+        font-size: 1.4rem;
+        line-height: 22px;
+        text-align: justify;
+        color: #86909c;
+      }
+      .n-form {
+        .n-form-item-blank {
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: flex-start;
+          .desc2 {
+            margin-bottom: 16px;
+            font-size: 1.4rem;
+            line-height: 22px;
+            text-align: justify;
+            color: #86909c;
+          }
+        }
+      }
+    }
+  }
+}
+// 模态框外层对话框(news页面)
+.n-dialog {
+  min-width: 500px;
+  min-height: 420px;
+  padding: 0;
+  .n-dialog__title {
+    height: 30px;
+    .n-base-icon {
+      visibility: hidden;
+    }
+  }
+  .n-dialog__action {
+    padding: 14px 20px;
+  }
+}

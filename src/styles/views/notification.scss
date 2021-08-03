@@ -1,0 +1,20 @@
+#Notification {
+  margin-top: 116px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: #4e5969;
+  .empty {
+    height: 600px;
+    width: 960px;
+    background: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    > img {
+      width: 240px;
+    }
+  }
+}

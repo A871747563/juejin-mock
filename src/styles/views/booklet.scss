@@ -1,0 +1,223 @@
+@import '@/styles/mixin.scss';
+#Booklet {
+  width: 100%;
+  margin-top: 116px;
+  display: flex;
+  justify-content: center;
+  .list-wrap {
+    width: 960px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    .content-left {
+      width: 700px;
+      min-height: 100px;
+      background: white;
+      margin-bottom: 80px;
+      padding-bottom: 40px;
+      box-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+      // 骨架屏
+      .skeleton {
+        padding: 20px 30px 0 30px;
+        .n-skeleton {
+          margin-bottom: 20px;
+        }
+      }
+      .item:hover {
+        background: #f7f9f9;
+      }
+      .item {
+        cursor: pointer;
+        height: 140px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        > img {
+          width: 100px;
+        }
+        .info {
+          height: 140px;
+          width: 550px;
+          padding-left: 22px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: flex-start;
+          .title:hover {
+            color: #18a058;
+          }
+          .title {
+            &::v-deep(.n-tag) {
+              margin-right: 14px;
+              height: 20px;
+              width: 35px;
+              .n-tag__content {
+                font-size: 1.2rem;
+              }
+            }
+            height: 25px;
+            font-size: 2rem;
+            font-weight: 500;
+            color: #2e3135;
+            display: flex;
+            align-items: center;
+          }
+          .desc {
+            height: 20px;
+            margin-top: 5px;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            color: #71777c;
+            display: flex;
+            align-items: center;
+            @include textEllipsis(1);
+          }
+          .author {
+            height: 29px;
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            .username {
+              min-width: 130px;
+              margin-left: 8px;
+              font-size: 1.5rem;
+              color: #000000;
+              &::v-deep(.n-tag) {
+                height: 15px;
+                width: 30px;
+                .n-tag__content {
+                  font-size: 1rem;
+                }
+              }
+            }
+            .self-description {
+              margin: 0 10px;
+              font-size: 1.4rem;
+              color: #71777c;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+          }
+          .other {
+            height: 23px;
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            .price-text {
+              margin-right: 15px;
+              font-size: 1.8rem;
+              color: #ed7b11;
+            }
+            .messages {
+              font-size: 1.3rem;
+              color: #71777c;
+            }
+          }
+        }
+      }
+      .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+    }
+    .content-right {
+      width: 240px;
+      min-height: 415px;
+      background: transparent;
+      .help-content {
+        width: 240px;
+        min-height: 415px;
+        .announcement:hover {
+          background: #f7f9f9;
+        }
+        .announcement {
+          cursor: pointer;
+          background: white;
+          min-height: 32px;
+          padding: 15px 16px;
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          box-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+          border-radius: 2px;
+          > img {
+            height: 32px;
+          }
+          > span {
+            margin-left: 10px;
+            font-size: 1.4rem;
+            color: #000000;
+          }
+        }
+        .section {
+          background: white;
+          min-height: 243px;
+          box-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+          .slogan {
+            min-height: 65px;
+            padding: 15px 16px;
+            border-bottom: 1px solid #e6e8e8;
+            border-radius: 2px;
+            .title {
+              font-size: 1.5rem;
+              color: black;
+            }
+            .desc {
+              margin-top: 8px;
+              font-size: 1.4rem;
+              line-height: 1.96rem;
+              color: #646464;
+            }
+          }
+          .wechat-qr {
+            min-height: 122px;
+            padding: 12px 16px;
+            .title {
+              font-size: 1.5rem;
+              color: #333333;
+            }
+            > img {
+              height: 95px;
+              margin-top: 9px;
+            }
+          }
+        }
+        .help {
+          background: white;
+          min-height: 90px;
+          margin-top: 10px;
+          display: flex;
+          box-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+          border-radius: 2px;
+          > div:hover {
+            background: #f7f9f9;
+          }
+          > div {
+            cursor: pointer;
+            flex: auto;
+            min-height: 90px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            .title {
+              margin-top: 8px;
+              font-size: 1.4rem;
+              color: #71777b;
+            }
+            > img {
+              height: 28px;
+            }
+            &:first-child {
+              border-right: 1px solid #e6e8e8;
+            }
+          }
+        }
+      }
+    }
+  }
+}

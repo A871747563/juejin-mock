@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+html {
+  // 根据项目实际需求定制默认字体颜色
+  color: #333;
+  font-family: 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif,
+    BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', Arial;
+  // 根据项目实际需求，限制页面大小，防止页面排版变形
+  // body {
+  //   min-width: 1366px;
+  //   max-width: 1920px;
+  //   margin: 0 auto;
+  //   overflow-x: auto;
+  // }
+
+  // 隐藏元素
+  .hidden {
+    display: none;
+  }
+
+  // 手势标识不可点击
+  .disabled {
+    cursor: not-allowed !important;
+  }
+}
+// 怪异盒模型去除
+header,
+div {
+  box-sizing: content-box;
+}

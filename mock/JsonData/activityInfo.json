@@ -1,0 +1,89 @@
+{
+  "data":[
+    {
+      "title":"Milvus：A Purpose-Built Vector Data Management System",
+      "date":"07-29 周四",
+      "address":"线上"
+    },
+    {
+      "title":"云上开发，高效智能——阿里云 ECS Cloudbuild 开发者大赛",
+      "date":"06-25 周五",
+      "address":"不限"
+    },
+    {
+      "title":"眼界大开 声临其境 网易首届音视频技术大会",
+      "date":"08-03 周二",
+      "address":"线上"
+    },
+    {
+      "title":"mPaaS Codeday#8 深圳站：终端架构持续演进-小程序 · 跨平台 · 动态化",
+      "date":"08-07 周六",
+      "address":"深圳"
+    },
+    {
+      "title":"Apache Flink Meetup 8.7 深圳站，企业实践 + 1.14 版本预热",
+      "date":"08-07 周六",
+      "address":"深圳"
+    },
+    {
+      "title":"第三届Techo TVP开发者峰会“「物」所不在，「联」动未来",
+      "date":"08-07 周六",
+      "address":"上海"
+    },
+    {
+      "title":"NUC 2021",
+      "date":"08-08 周日",
+      "address":"北京"
+    },
+    {
+      "title":"Apache 亚洲大会 2021",
+      "date":"08-06 周五",
+      "address":"不限"
+    },
+    {
+      "title":"腾讯【极客挑战赛】-代码无所不能",
+      "date":"07-23 周五",
+      "address":"线上"
+    },
+    {
+      "title":"【数字新局 开放共生】2021网易数字+大会",
+      "date":"08-12 周四",
+      "address":"杭州"
+    },
+    {
+      "title":"DTCC2021第十二届数据库大会-浪潮ZNBase专场",
+      "date":"08-18 周三",
+      "address":"北京"
+    },
+    {
+      "title":"2021年DAMS中国数据智能管理峰会-上海站",
+      "date":"08-27 周五",
+      "address":"上海"
+    },
+    {
+      "title":"环信MQTT创意编程挑战赛",
+      "date":"07-13 周二",
+      "address":"北京"
+    },
+    {
+      "title":"LiveVideoStack 2021北京站",
+      "date":"09-03 周五",
+      "address":"北京"
+    },
+    {
+      "title":"CSDI summit中国软件研发管理行业技术峰会",
+      "date":"09-10 周五",
+      "address":"深圳"
+    },
+    {
+      "title":"全真互联 数字生活 第四届“绽放杯”5G应用征集大赛",
+      "date":"06-03 周四",
+      "address":"不限"
+    },
+    {
+      "title":"2021年MongoDB中文社区北京大会",
+      "date":"07-31 周六",
+      "address":"北京"
+    }
+  ]
+}

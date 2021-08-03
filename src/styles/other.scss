@@ -1,0 +1,11 @@
+// 头部进度条（绿化）
+#nprogress {
+  .bar {
+    height: 3.5px !important;
+    background: #37ae6b !important;
+  }
+  .spinner-icon {
+    border-top-color: #37ae6b !important;
+    border-left-color: #37ae6b !important;
+  }
+}
